@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 20px;
+          background-color: #f3f3f3;
+        }
+      
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          overflow: hidden;
+        }
+      
+        h1 {
+          text-align: center;
+          padding: 20px;
+          margin: 0;
+          background-color: #3498db;
+          color: #fff;
+          border-bottom: 2px solid #2980b9;
+          border-radius: 10px 10px 0 0;
+        }
+      
+        .elements {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+          grid-gap: 10px;
+          padding: 20px;
+        }
+      
+        .element {
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 10px;
+          transition: all 0.3s ease;
+          
+        }
+      
+        .element:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+      
+        .element h2 {
+          margin-top: 0;
+          font-size: 14px;
+          color: #333;
+        }
+      
+        .element p {
+          margin: 5px 0;
+          font-size: 14px;
+          color: #666;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Periodic Table</h1>
+        <div class="elements">
+          <!-- Insert JSON data here -->
+        </div>
+      </div>
+</body>
+</html>
